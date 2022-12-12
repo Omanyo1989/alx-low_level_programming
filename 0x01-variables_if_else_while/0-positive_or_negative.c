@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - main is to generate a random number
+ * main - main function to generate a random number
  *
  * Return: Always 0 (Success)
  *
@@ -10,7 +10,6 @@
 int main(void)
 {
 	int n;
-	int num;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
